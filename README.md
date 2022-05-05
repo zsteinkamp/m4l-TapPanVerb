@@ -14,11 +14,7 @@ This device is as close as I can figure out how to do this at this point. There 
 
 https://user-images.githubusercontent.com/8418898/167030877-89e855ee-bd85-4da1-a519-e21bc99074d7.mov
 
-https://user-images.githubusercontent.com/8418898/167030902-d8904be1-04e7-4c35-b4ec-bbe6aabbc029.mov
-
-https://user-images.githubusercontent.com/8418898/167030926-83ff4831-5ecc-43dc-ad73-6244f5a4f73e.mov
-
-https://user-images.githubusercontent.com/8418898/167030953-991103f5-5ef8-41eb-aaa4-6dff412ebc7b.mov
+You can see more demos linked on the [blog post on TapPanVerb](https://steinkamp.us/post/2022/05/05/TapPanVerb.html) page.
 
 ## Installation / Setup
 
