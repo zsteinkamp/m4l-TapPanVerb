@@ -8,10 +8,13 @@ This device is as close as I can figure out how to do this at this point. There 
 
 ## Demos
 
-<video src="https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/images/TapPanVerb-A-720.mov" width="45%"></video>
-<video src="https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/images/TapPanVerb-B-720.mov" width="45%"></video>
-<video src="https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/images/TapPanVerb-C-720.mov" width="45%"></video>
-<video src="https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/images/TapPanVerb-D-720.mov" width="45%"></video>
+https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/images/TapPanVerb-A-720.mov
+
+https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/images/TapPanVerb-B-720.mov
+
+https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/images/TapPanVerb-C-720.mov
+
+https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/images/TapPanVerb-D-720.mov
 
 ## Installation / Setup
 
