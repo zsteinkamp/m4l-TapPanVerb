@@ -6,6 +6,8 @@ I originally had an idea that there should be a function in a reverb that lets y
 
 This device is as close as I can figure out how to do this at this point. There is a configurable number of taps (up to 128) that are spaced at a configurable time interval. There are visual controls for pan position and time coefficient that give you very direct control over some wild effects. There is a reverb section, which actually sits in front of the signal before the delay taps. This lets you pre-blur the sound as it goes into the delay circuit. There is also a feedback function with a novel musicality, but it is still super dangerous to use! USE WITH CARE!
 
+![The Interface](images/device.png)
+
 ## Demos
 
 (make sure you enable audio in each video window)
