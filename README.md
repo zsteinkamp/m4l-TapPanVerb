@@ -22,6 +22,7 @@ If you just want to download and install the device, then go to the [frozen/](ht
 
 ### Changelog
 
+* [0.0.2](https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/frozen/TapPanVerb-0.0.2.amxd) - 2022-05-06 - Visual changes; add feedback mod rate dial.
 * [0.0.1](https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/frozen/TapPanVerb-0.0.1.amxd) - 2022-05-05 - Initial release.
 
 ## Usage
@@ -44,9 +45,6 @@ Crossfades between dry input signal and that signal put through a reverb.
 ### Reverb Size
 Controls a feedback loop inside of the reverb circuit. Larger numbers will result in a longer reverb.
 
-### Early Refl
-Controls balance between late and early sides of the reverb algorithm.
-
 ### Liveness
 Controls whether the reverb sounds dark or bright.
 
@@ -58,6 +56,9 @@ This knob controls how much of the output signal is fed back into the pre-reverb
 
 ### FB Delay
 Allows for some control over the resonant frequencies of the feedback circuit. The circuit has an oscillating delay to try to mitigate ringing, and this knob controls its midpoint and scale (+/-50%).
+
+### FB Rate
+Controls the rate of the LFO that is modulating the feedback delay time.
 
 ## TODO
 
