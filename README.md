@@ -22,6 +22,7 @@ If you just want to download and install the device, then go to the [frozen/](ht
 
 ### Changelog
 
+* [0.0.3](https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/frozen/TapPanVerb-0.0.3.amxd) - 2022-05-06 - Optimize CPU usage by using `mute 0/1` messages for `poly~` voices rather than just setting their volume to 1 or 0.
 * [0.0.2](https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/frozen/TapPanVerb-0.0.2.amxd) - 2022-05-06 - Visual changes; add feedback mod rate dial.
 * [0.0.1](https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/frozen/TapPanVerb-0.0.1.amxd) - 2022-05-05 - Initial release.
 
