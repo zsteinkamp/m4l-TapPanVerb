@@ -22,6 +22,7 @@ If you just want to download and install the device, then go to the [frozen/](ht
 
 ### Changelog
 
+* [0.0.5](https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/frozen/TapPanVerb-0.0.5.amxd) - 2022-05-19 - Show taps in time/pan/volume areas as vertical lines.
 * [0.0.4](https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/frozen/TapPanVerb-0.0.4.amxd) - 2022-05-15 - Add functionality to draw per-tap output level.
 * [0.0.3](https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/frozen/TapPanVerb-0.0.3.amxd) - 2022-05-06 - Optimize CPU usage by using `mute 0/1` messages for `poly~` voices rather than just setting their volume to 1 or 0.
 * [0.0.2](https://github.com/zsteinkamp/m4l-TapPanVerb/raw/main/frozen/TapPanVerb-0.0.2.amxd) - 2022-05-06 - Visual changes; add feedback mod rate dial.
@@ -39,7 +40,7 @@ This knob controls the default delay between each tap in the field.
 The taps are arranged in a bucket-brigade, that is tap 1 outputs its signal both to the plugin output, but also as the input to tap 2. The volume of the signal that is sent to the subsequent tap is scaled according to this knob. Set to 100% to hear each tap equally loudly.
 
 ### Tap Time Factor
-This is a visual input to control each tap's relative delay time. You have to imagine the the taps are along the horizontal axis, equally spaced first to last. Pull the line toward zero to speed up the taps, or up to one to slow it back down. Shift-click to remove points.
+This is a visual input to control each tap's relative delay time. Pull the line toward zero to speed up the taps, or up to one to slow it back down. Shift-click to remove points. Alt-drag to adjust curve.
 
 ### Reverb Mix
 Crossfades between dry input signal and that signal put through a reverb.
@@ -47,11 +48,11 @@ Crossfades between dry input signal and that signal put through a reverb.
 ### Reverb Size
 Controls a feedback loop inside of the reverb circuit. Larger numbers will result in a longer reverb.
 
-### Liveness
+### Brightness
 Controls whether the reverb sounds dark or bright.
 
 ### Panning Path
-This is a visual control that lets you position each reverb tap along a line. You need to imagine that the taps are spaced equally along the horizontal axis. Draw a line to indicate where, from left to right, each tap should be placed. Shift-click to remove points.
+This is a visual control that lets you position each tap in stereo space.  Draw a line to indicate where, from left to right, each tap should be placed. Shift-click to remove points. Alt-drag to adjust curve.
 
 ### FB Amount
 This knob controls how much of the output signal is fed back into the pre-reverb section.
@@ -62,9 +63,12 @@ Allows for some control over the resonant frequencies of the feedback circuit. T
 ### FB Rate
 Controls the rate of the LFO that is modulating the feedback delay time.
 
+### Tap Output Volume
+This controls the output of each tap, so you can make the taps fade in or out or anything in between. Shift-click to remove points. Alt-drag to adjust curve.
+
 ## TODO
 
-* Better visuals. Perhaps plot the taps as vertical lines behind the two functions.
+* ...
 
 ## Contributing
 
