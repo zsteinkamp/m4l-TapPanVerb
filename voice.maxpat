@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 0,
+			"minor" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -44,7 +44,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 286.333333333333314, 234.5, 73.0, 22.0 ],
+					"patching_rect" : [ 217.199999999999989, 237.0, 73.0, 22.0 ],
 					"text" : "s #0-VOL"
 				}
 
@@ -165,7 +165,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 511.237499999999955, 533.0, 50.0, 22.0 ],
-					"text" : "32"
+					"text" : "0"
 				}
 
 			}
@@ -235,7 +235,7 @@
 					}
 ,
 					"text" : "Feed forward to the next tap. Adds 1 to this voice (tap) number and sets the destination of signal send pairs for the next tap.",
-					"textcolor" : [ 0.254901960784314, 0.576470588235294, 0.901960784313726, 1.0 ]
+					"textcolor" : [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -256,7 +256,7 @@
 					}
 ,
 					"text" : "Audio out from the device.",
-					"textcolor" : [ 0.254901960784314, 0.576470588235294, 0.901960784313726, 1.0 ]
+					"textcolor" : [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -277,7 +277,7 @@
 					}
 ,
 					"text" : "Tap output panning control.",
-					"textcolor" : [ 0.254901960784314, 0.576470588235294, 0.901960784313726, 1.0 ]
+					"textcolor" : [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -299,7 +299,7 @@
 					}
 ,
 					"text" : "Feed forward control. Adjusting this value allows you to make the taps fade out by feeding less than the full signal to the next tap.",
-					"textcolor" : [ 0.254901960784314, 0.576470588235294, 0.901960784313726, 1.0 ]
+					"textcolor" : [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -321,7 +321,7 @@
 					}
 ,
 					"text" : "Delay tapin~ / tapout~ circuit. The delay time is smoothed by rampsmooth~ to make transitions sound better.",
-					"textcolor" : [ 0.254901960784314, 0.576470588235294, 0.901960784313726, 1.0 ]
+					"textcolor" : [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -343,7 +343,7 @@
 					}
 ,
 					"text" : "Receive Left/Right audio here. Each tap has a pair of receivers, Lnnn and Rnnn where nnn is the Tap ID.",
-					"textcolor" : [ 0.254901960784314, 0.576470588235294, 0.901960784313726, 1.0 ]
+					"textcolor" : [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -363,7 +363,7 @@
 					}
 ,
 					"text" : "Tap Delay Output / Feed Forward Circuit",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"textcolor" : [ 0.709803921568627, 0.709803921568627, 0.709803921568627, 1.0 ]
 				}
 
 			}
@@ -383,7 +383,7 @@
 					}
 ,
 					"text" : "Mute Voice",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"textcolor" : [ 0.709803921568627, 0.709803921568627, 0.709803921568627, 1.0 ]
 				}
 
 			}
@@ -428,7 +428,7 @@
 					}
 ,
 					"text" : "The delay time for this tap.",
-					"textcolor" : [ 0.254901960784314, 0.576470588235294, 0.901960784313726, 1.0 ]
+					"textcolor" : [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -450,7 +450,7 @@
 					}
 ,
 					"text" : "From function object in main patcher.",
-					"textcolor" : [ 0.254901960784314, 0.576470588235294, 0.901960784313726, 1.0 ]
+					"textcolor" : [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -471,7 +471,7 @@
 					}
 ,
 					"text" : "From Knob",
-					"textcolor" : [ 0.254901960784314, 0.576470588235294, 0.901960784313726, 1.0 ]
+					"textcolor" : [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -491,7 +491,7 @@
 					}
 ,
 					"text" : "Calculate Delay Time",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"textcolor" : [ 0.709803921568627, 0.709803921568627, 0.709803921568627, 1.0 ]
 				}
 
 			}
@@ -512,7 +512,7 @@
 					}
 ,
 					"text" : "This Tap ID",
-					"textcolor" : [ 0.254901960784314, 0.576470588235294, 0.901960784313726, 1.0 ]
+					"textcolor" : [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -533,7 +533,7 @@
 					}
 ,
 					"text" : "Total Poly",
-					"textcolor" : [ 0.254901960784314, 0.576470588235294, 0.901960784313726, 1.0 ]
+					"textcolor" : [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -554,7 +554,7 @@
 					}
 ,
 					"text" : "Muted",
-					"textcolor" : [ 0.254901960784314, 0.576470588235294, 0.901960784313726, 1.0 ]
+					"textcolor" : [ 0.262745098039216, 0.568627450980392, 0.901960784313726, 1.0 ]
 				}
 
 			}
@@ -574,7 +574,7 @@
 					}
 ,
 					"text" : "Send This Tap (voice) Number",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"textcolor" : [ 0.709803921568627, 0.709803921568627, 0.709803921568627, 1.0 ]
 				}
 
 			}
@@ -594,7 +594,7 @@
 					}
 ,
 					"text" : "poly~ Messages",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"textcolor" : [ 0.709803921568627, 0.709803921568627, 0.709803921568627, 1.0 ]
 				}
 
 			}
@@ -614,7 +614,7 @@
 					}
 ,
 					"text" : "TapsPanVerb - Single Tap",
-					"textcolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ]
+					"textcolor" : [ 0.709803921568627, 0.709803921568627, 0.709803921568627, 1.0 ]
 				}
 
 			}
@@ -626,7 +626,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 160.266666666666652, 585.0, 50.0, 22.0 ],
-					"text" : "128"
+					"text" : "1"
 				}
 
 			}
@@ -650,7 +650,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1385.0, 323.0, 73.0, 22.0 ],
-					"text" : "set R032"
+					"text" : "set R000"
 				}
 
 			}
@@ -662,7 +662,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1018.25, 326.0, 71.0, 22.0 ],
-					"text" : "set L032"
+					"text" : "set L000"
 				}
 
 			}
@@ -757,7 +757,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 232.666666666666657, 267.5, 134.0, 22.0 ],
+					"patching_rect" : [ 167.400000000000006, 270.0, 134.0, 22.0 ],
 					"text" : "s #0-DELAY_COEFF"
 				}
 
@@ -780,7 +780,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 179.0, 302.0, 72.0, 22.0 ],
+					"patching_rect" : [ 117.599999999999994, 302.0, 72.0, 22.0 ],
 					"text" : "s #0-PAN"
 				}
 
@@ -791,7 +791,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.0, 202.0, 91.0, 22.0 ],
+					"patching_rect" : [ 267.0, 203.0, 91.0, 22.0 ],
 					"text" : "print #0-UNK"
 				}
 
@@ -811,22 +811,11 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-65",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 125.199999999999989, 335.5, 155.0, 22.0 ],
-					"text" : "s #0-FEED_FORWARD"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-62",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.666666666666657, 369.5, 132.0, 22.0 ],
+					"patching_rect" : [ 70.600000000000023, 341.5, 132.0, 22.0 ],
 					"text" : "s #0-DELAY_BASE"
 				}
 
@@ -837,7 +826,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 403.5, 125.0, 22.0 ],
+					"patching_rect" : [ 18.0, 375.0, 125.0, 22.0 ],
 					"text" : "s #0-MAX_VOICE"
 				}
 
@@ -846,11 +835,11 @@
 				"box" : 				{
 					"id" : "obj-56",
 					"maxclass" : "newobj",
-					"numinlets" : 7,
-					"numoutlets" : 7,
-					"outlettype" : [ "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 18.0, 163.0, 341.0, 22.0 ],
-					"text" : "route max_voice delay_base feed_forward pan delay_coeff vol"
+					"numinlets" : 6,
+					"numoutlets" : 6,
+					"outlettype" : [ "", "", "", "", "", "" ],
+					"patching_rect" : [ 18.0, 163.0, 268.0, 22.0 ],
+					"text" : "route max_voice delay_base pan delay_coeff vol"
 				}
 
 			}
@@ -862,6 +851,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 18.0, 113.0, 28.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -874,7 +867,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1264.25, 809.0, 73.0, 22.0 ],
-					"text" : "set R033"
+					"text" : "set R001"
 				}
 
 			}
@@ -886,7 +879,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1016.5, 813.0, 71.0, 22.0 ],
-					"text" : "set L033"
+					"text" : "set L001"
 				}
 
 			}
@@ -959,42 +952,6 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 888.5, 706.0, 29.5, 22.0 ],
 					"text" : "*~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-14",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1345.25, 595.0, 29.5, 22.0 ],
-					"text" : "*~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 983.0, 595.0, 29.5, 22.0 ],
-					"text" : "*~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1153.5, 520.0, 153.0, 22.0 ],
-					"text" : "r #0-FEED_FORWARD"
 				}
 
 			}
@@ -1182,7 +1139,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 26.600000000000023, 662.0, 29.5, 22.0 ],
-					"text" : "32"
+					"text" : "0"
 				}
 
 			}
@@ -1229,6 +1186,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1415.25, 809.0, 42.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 2"
 				}
 
@@ -1240,6 +1201,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 888.5, 813.0, 42.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 1"
 				}
 
@@ -1254,21 +1219,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"order" : 0,
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"order" : 1,
 					"source" : [ "obj-13", 0 ]
@@ -1277,8 +1227,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"source" : [ "obj-14", 0 ]
+					"destination" : [ "obj-48", 0 ],
+					"order" : 0,
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -1617,14 +1568,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-56", 4 ]
+					"source" : [ "obj-56", 3 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
-					"source" : [ "obj-56", 5 ]
+					"source" : [ "obj-56", 4 ]
 				}
 
 			}
@@ -1638,7 +1589,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
-					"source" : [ "obj-56", 6 ]
+					"source" : [ "obj-56", 5 ]
 				}
 
 			}
@@ -1651,15 +1602,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-65", 0 ],
-					"source" : [ "obj-56", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-77", 0 ],
-					"source" : [ "obj-56", 3 ]
+					"source" : [ "obj-56", 2 ]
 				}
 
 			}
@@ -1737,32 +1681,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 1 ],
-					"order" : 1,
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 1 ],
+					"destination" : [ "obj-37", 1 ],
 					"order" : 0,
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"order" : 1,
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-37", 1 ],
-					"order" : 0,
+					"destination" : [ "obj-47", 0 ],
+					"order" : 1,
 					"source" : [ "obj-9", 0 ]
 				}
 
@@ -1775,7 +1703,9 @@
 
 			}
  ],
-		"textcolor_inverse" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
+		"textcolor_inverse" : [ 0.709803921568627, 0.709803921568627, 0.709803921568627, 1.0 ],
 		"saved_attribute_attributes" : 		{
 			"textcolor_inverse" : 			{
 				"expression" : "themecolor.live_control_fg"
