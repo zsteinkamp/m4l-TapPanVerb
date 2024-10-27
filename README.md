@@ -4,11 +4,13 @@ This is an audio effect made in Max For Live that implements a bucket-brigade mu
 
 I originally had an idea that there should be a function in a reverb that lets you control the pan position of the reverb tail at specific times after the initial impulse. I didn't find that in the reverbs that I had, so I decided to mock one up. My first attempt was to use an audio effect rack with five chains spread across the stereo range. Each chain had a delay followed by a reverb. The chain delay increased in some increment across the chains, e.g. chain 1 was 0ms delay, chain 2 was 100ms, chain 3 was 200ms, etc. This had the effect of making "reverb bursts" across the stereo field, which was cool. But it wasn't what I had in mind exactly.
 
-This device is as close as I can figure out how to do this at this point. There is a configurable number of taps (up to 128) that are spaced at a configurable time interval. There are visual controls for pan position and time coefficient that give you very direct control over some wild effects.
+One thing led to another and I embraced my love for delays with this concept of controlling a tail. There is a configurable number of taps (up to 128) that are spaced at a configurable time interval. There are visual controls for pan position, volume, and time coefficient that give you very direct control over some wild effects.
 
 ![The Interface](images/device.png)
 
 ## Demos
+
+Check out a [deep walkthrough on YouTube](https://youtu.be/S1JEmtOJb3w).
 
 You can see more demos linked on the [blog post on TapPanVerb](https://steinkamp.us/post/2022/05/05/TapPanVerb.html) page.
 
