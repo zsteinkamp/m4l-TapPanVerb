@@ -144,7 +144,8 @@
 
 					}
 ,
-					"text" : "Device ID Seeding"
+					"text" : "Device ID Seeding",
+					"textcolor" : [ 0.709803921568627, 0.709803921568627, 0.709803921568627, 1.0 ]
 				}
 
 			}
@@ -642,7 +643,8 @@
 
 					}
 ,
-					"text" : "Tap Delay Output / Feed Forward Circuit"
+					"text" : "Tap Delay Output / Feed Forward Circuit",
+					"textcolor" : [ 0.709803921568627, 0.709803921568627, 0.709803921568627, 1.0 ]
 				}
 
 			}
@@ -661,7 +663,8 @@
 
 					}
 ,
-					"text" : "Mute Voice"
+					"text" : "Mute Voice",
+					"textcolor" : [ 0.709803921568627, 0.709803921568627, 0.709803921568627, 1.0 ]
 				}
 
 			}
@@ -771,7 +774,8 @@
 
 					}
 ,
-					"text" : "Calculate Delay Time"
+					"text" : "Calculate Delay Time",
+					"textcolor" : [ 0.709803921568627, 0.709803921568627, 0.709803921568627, 1.0 ]
 				}
 
 			}
@@ -811,7 +815,8 @@
 
 					}
 ,
-					"text" : "Send This Tap (voice) Number"
+					"text" : "Send This Tap (voice) Number",
+					"textcolor" : [ 0.709803921568627, 0.709803921568627, 0.709803921568627, 1.0 ]
 				}
 
 			}
@@ -830,7 +835,8 @@
 
 					}
 ,
-					"text" : "poly~ Messages"
+					"text" : "poly~ Messages",
+					"textcolor" : [ 0.709803921568627, 0.709803921568627, 0.709803921568627, 1.0 ]
 				}
 
 			}
@@ -849,7 +855,8 @@
 
 					}
 ,
-					"text" : "TapPanZeit - Single Tap \"Voice\""
+					"text" : "TapPanZeit - Single Tap \"Voice\"",
+					"textcolor" : [ 0.709803921568627, 0.709803921568627, 0.709803921568627, 1.0 ]
 				}
 
 			}
@@ -1694,6 +1701,7 @@
  ],
 		"dependency_cache" : [  ],
 		"autosave" : 0,
+		"textcolor_inverse" : [ 0.709803921568627, 0.709803921568627, 0.709803921568627, 1.0 ],
 		"saved_attribute_attributes" : 		{
 			"textcolor_inverse" : 			{
 				"expression" : "themecolor.live_control_fg"
