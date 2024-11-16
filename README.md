@@ -20,6 +20,8 @@ If you just want to download and install the device, then go to the [Releases Pa
 
 ### Changelog
 
+* [v9](https://github.com/zsteinkamp/m4l-TapPanZeit/releases/download/v9/TapPanZeit-v9.amxd) - 2024-11-16 - Fix bug with multiple instances; Prettify patcher view for a "How It's Made" video.
+* [v8](https://github.com/zsteinkamp/m4l-TapPanZeit/releases/download/v8/TapPanZeit-v8.amxd) - 2024-10-30 - Allow for up to 125% time; Shape Presets
 * [v7](https://github.com/zsteinkamp/m4l-TapPanZeit/releases/download/v7/TapPanZeit-v7.amxd) - 2024-10-26 - Rename to TapPanZeit, simplify and clean up interface. Fix bugs around tap graph position.
 * [v6](https://github.com/zsteinkamp/m4l-TapPanZeit/releases/download/v6/TapPanVerb-v6.amxd) - 2024-10-17 - Add presets; Tighten up UI a bit.
 * [0.0.5](https://github.com/zsteinkamp/m4l-TapPanZeit/raw/main/frozen/TapPanVerb-0.0.5.amxd) - 2022-05-19 - Show taps in time/pan/volume areas as vertical lines.
