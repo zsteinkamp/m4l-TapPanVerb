@@ -10,9 +10,7 @@ One thing led to another and I embraced my love for delays with this concept of 
 
 ## Demos
 
-Check out a [deep walkthrough on YouTube](https://youtu.be/S1JEmtOJb3w).
-
-You can see more demos linked on the [blog post on TapPanVerb](https://steinkamp.us/post/2022/05/05/TapPanVerb.html) page.
+Check out a [feature walkthrough on YouTube](https://youtu.be/S1JEmtOJb3w), as well as a [deep dive into how the device works](https://www.youtube.com/watch?v=Mn0RBMoXq_c), bit by bit in Max.
 
 ## Installation / Setup
 
@@ -20,7 +18,8 @@ If you just want to download and install the device, then go to the [Releases Pa
 
 ### Changelog
 
-* [v9](https://github.com/zsteinkamp/m4l-TapPanZeit/releases/download/v9/TapPanZeit-v9.amxd) - 2024-11-16 - Fix bug with multiple instances; Prettify patcher view for a "How It's Made" video.
+* [v10](https://github.com/zsteinkamp/m4l-TapPanZeit/releases/download/v10/TapPanZeit-v10.amxd) - 2024-11-20 - Small refinements and improvements from [How It's Made](https://www.youtube.com/watch?v=Mn0RBMoXq_c) video prep.
+* [v9](https://github.com/zsteinkamp/m4l-TapPanZeit/releases/download/v9/TapPanZeit-v9.amxd) - 2024-11-16 - Fix bug with multiple instances; Prettify patcher view for a ["How It's Made"](https://www.youtube.com/watch?v=Mn0RBMoXq_c) video.
 * [v8](https://github.com/zsteinkamp/m4l-TapPanZeit/releases/download/v8/TapPanZeit-v8.amxd) - 2024-10-30 - Allow for up to 125% time; Shape Presets
 * [v7](https://github.com/zsteinkamp/m4l-TapPanZeit/releases/download/v7/TapPanZeit-v7.amxd) - 2024-10-26 - Rename to TapPanZeit, simplify and clean up interface. Fix bugs around tap graph position.
 * [v6](https://github.com/zsteinkamp/m4l-TapPanZeit/releases/download/v6/TapPanVerb-v6.amxd) - 2024-10-17 - Add presets; Tighten up UI a bit.
