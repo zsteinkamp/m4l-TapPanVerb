@@ -6,7 +6,7 @@ I originally had an idea that there should be a function in a reverb that lets y
 
 One thing led to another and I embraced my love for delays with this concept of controlling a tail. There is a configurable number of taps (up to 128) that are spaced at a configurable time interval. There are visual controls for pan position, volume, and time coefficient that give you very direct control over some wild effects.
 
-![The Interface](images/device.png)
+![The Interface](images/device.gif)
 
 ## Demos
 
