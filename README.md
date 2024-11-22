@@ -18,6 +18,7 @@ If you just want to download and install the device, then go to the [Releases Pa
 
 ### Changelog
 
+* [v11](https://github.com/zsteinkamp/m4l-TapPanZeit/releases/download/v11/TapPanZeit-v11.amxd) - 2024-11-22 - Add meters behind each `[function]` object to visualize what each tap is doing with respect to the function.
 * [v10](https://github.com/zsteinkamp/m4l-TapPanZeit/releases/download/v10/TapPanZeit-v10.amxd) - 2024-11-20 - Small refinements and improvements from [How It's Made](https://www.youtube.com/watch?v=Mn0RBMoXq_c) video prep.
 * [v9](https://github.com/zsteinkamp/m4l-TapPanZeit/releases/download/v9/TapPanZeit-v9.amxd) - 2024-11-16 - Fix bug with multiple instances; Prettify patcher view for a ["How It's Made"](https://www.youtube.com/watch?v=Mn0RBMoXq_c) video.
 * [v8](https://github.com/zsteinkamp/m4l-TapPanZeit/releases/download/v8/TapPanZeit-v8.amxd) - 2024-10-30 - Allow for up to 125% time; Shape Presets
